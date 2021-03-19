@@ -1,4 +1,4 @@
-import { GET_SINGLE_PRODUCT, REQUEST_FAIL, REQUEST_SUCCESS } from "../actions/constant/product"
+import { GET_SINGLE_PRODUCT, REQUEST_FAIL, REQUEST_SUCCESS } from "./actions/constant/product"
 
 
 export const productDetailReducer = (state = {product:{}}, action) => {
