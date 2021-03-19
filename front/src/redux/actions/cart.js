@@ -1,4 +1,4 @@
-import { ADD_TO_CART, GET_CART, REMOVE_CART } from "./actions/constant/product"
+import { ADD_TO_CART, GET_CART, REMOVE_CART } from "./constant/product"
 
 import cookie from 'react-cookies'
 
