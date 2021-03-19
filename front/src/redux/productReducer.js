@@ -1,4 +1,4 @@
-import { GET_ALL_PRODUCT, REQUEST_FAIL, REQUEST_SUCCESS } from "../actions/constant/product"
+import { GET_ALL_PRODUCT, REQUEST_FAIL, REQUEST_SUCCESS } from "./actions/constant/product"
 
 
 export const productReducer = (state = {product:[]}, action) => {
