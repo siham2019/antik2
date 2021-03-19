@@ -1,4 +1,4 @@
-import { ADD_TO_CART, GET_CART, REMOVE_CART } from "../actions/constant/product"
+import { ADD_TO_CART, GET_CART, REMOVE_CART } from "./actions/constant/product"
 
 
 export const cart = (state ={} , action) => {
