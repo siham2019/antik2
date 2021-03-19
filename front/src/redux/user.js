@@ -1,4 +1,4 @@
-import { LOGIN, LOGIN_FAIL, REGISTER, REGISTER_FAIL } from "../actions/constant/user"
+import { LOGIN, LOGIN_FAIL, REGISTER, REGISTER_FAIL } from "./actions/constant/user"
 
 export const user = (state ={}, action) => {
     switch (action.type) {
