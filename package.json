@@ -1,0 +1,33 @@
+{
+  "name": "antik",
+  "version": "1.0.0",
+  "description": "e-comerce website for women",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.25.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "nodemailer": "^6.4.18",
+    "stripe": "^8.138.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deve": "SET NODE_ENV=DEVELOPEMENT && nodemon server",
+    "prod": "SET NODE_ENV=PRODUCTION && nodemon server",
+    "build": "cd front && npm run build",
+    "install": "cd front && npm install",
+    "start": "npm run prod",
+    "server": "nodemon server",
+    "client": "npm start --prefix front",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "siham",
+  "license": "ISC"
+}
