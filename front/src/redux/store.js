@@ -1,10 +1,10 @@
 import { createStore,combineReducers,applyMiddleware } from "redux";
-import { productReducer } from "./reducer/productReducer";
-import { orderReducer } from "./reducer/order";
-import { productDetailReducer } from "./reducer/productDetail";
-import { cart } from "./reducer/cart";
-import { user } from "./reducer/user";
-import { review } from "./reducer/review";
+import { productReducer } from "./productReducer";
+import { orderReducer } from "./order";
+import { productDetailReducer } from "./productDetail";
+import { cart } from "./cart";
+import { user } from "./user";
+import { review } from "./review";
 
 import thunk from 'redux-thunk';
 
