@@ -19,11 +19,10 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deve": "SET NODE_ENV=DEVELOPEMENT && nodemon server",
-    "prod": "SET NODE_ENV=PRODUCTION && nodemon server",
+ 
     "build": "cd front && npm run build",
     "install": "cd front && npm install",
-    "start": "npm run prod",
+    "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix front",
     "dev": "concurrently \"npm run server\" \"npm run client\""
